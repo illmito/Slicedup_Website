@@ -7,14 +7,14 @@
   
 
       body {
-        background-color: #f5deb3;
+        background-color: #FAEDD6;
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
       }
 
       header {
-        background-color: #f5deb3;
+        background-color: #FAEDD6;
         color: #fff;
         text-align: center;
         padding: 20px;
@@ -27,16 +27,24 @@
         font-size: 140%;
         
       }
+      
+      
+      .indeximage {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+
 
 
       nav a {
-        box-shadow: inset 0px 0px 0px 0px #f5deb3;
+        box-shadow: inset 0px 0px 0px 0px #FAEDD6;
         color: #333;
         transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
         text-decoration: none;
         margin: 25px;
         font-weight: bold;
-        padding: 25px;
+        padding: 1px;
         text-align: center;
         margin: 2px 2px;
         opacity: 95%;
@@ -44,7 +52,7 @@
 
       }
       nav a:hover {
-        box-shadow: inset 200px 0 0 0 #f5deb3;
+        box-shadow: inset 150px 0 0 0 #FAEDD6;
         color: #f07276;
         font-weight: bold;
         
@@ -60,21 +68,14 @@
         align-items: center;
 
       }
-
-      .three-photos {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        max-height: 100%;
-        max-width: 100%;
+      
+      main a {
+        font-size:x-large;
+        font-weight: bold;
+        color: #f07276;
       }
 
-      .three-photos img {
-        max-width: 100%;
-        max-height: 250px;
-        object-fit: contain;
-        padding: 6px;
-      }
+
 
       .logo {
         max-height: 150px;
@@ -91,48 +92,11 @@
         color: #333;
       }
 
-      .polaroid1 {
-        width: auto;
-        background-color: white;
-        box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        transform: rotate(5deg);
-        margin-top: 5px;
-      }
-
-      .polaroid2 {
-        width: 100%;
-        background-color: white;
-        box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        transform: rotate(76deg);
-        margin-top: 30px;
-      }
-
-      .polaroid3 {
-        width: 100%;
-        background-color: white;
-        box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        transform: rotate(-10deg);
-      }
-
-      .polaroid4 {
-        width: 100%;
-        background-color: white;
-        box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        transform: rotate(12deg);
-        margin-top: 30px;
-      }
 
       h2 {
         text-align: center;
         color: #333;
       }
-
-
-
 
 
 
@@ -170,5 +134,5 @@
     }
 
     button:hover {
-        background-color: #f5deb3;
+        background-color: #FAEDD6;
     }
